@@ -16,5 +16,8 @@ public class Main {
 
         System.out.println("\n------------- QUANTIDADE DE PISO -------------");
         Retangulo.quantidadePiso(13, 420);
+
+        System.out.println("\n------------- QUANTIDADE DE LAJOTA PARA RODAPÉ -------------");
+        Retangulo.quantidadeRodape(13, 350);
     }
 }

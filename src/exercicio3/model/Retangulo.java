@@ -16,4 +16,10 @@ public class Retangulo {
         double qtdPiso = areaTotal/areaLajota;
         System.out.println("Quantidade de piso necessária é " + Math.ceil(qtdPiso));
     }
-   }
+
+    public static void quantidadeRodape(double comprimentoLajota, double perimetro){
+        double qtdRodape = perimetro/comprimentoLajota;
+        System.out.println("Quantidade de lajota necessária para o rodapé é " + Math.ceil(qtdRodape));
+    }
+
+}
