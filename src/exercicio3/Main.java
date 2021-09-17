@@ -8,12 +8,13 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("\n------------- CALCULAR ÁREA -------------");
+        Retangulo.calculaArea(5, 7);
 
-        System.out.print("Digite o valor do lado a: ");
-        double ladoA = input.nextDouble();
-        System.out.print("Digite o valor do lado b: ");
-        double ladoB = input.nextDouble();
-        Retangulo.calculaArea(ladoA, ladoB);
+        System.out.println("\n------------- CALCULAR PERÍMETRO -------------");
+        Retangulo.calculaPerimetro(4, 6.2);
 
+        System.out.println("\n------------- QUANTIDADE DE PISO -------------");
+        Retangulo.quantidadePiso(13, 420);
     }
 }
